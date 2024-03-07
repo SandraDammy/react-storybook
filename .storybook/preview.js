@@ -1,3 +1,9 @@
+/* global styling */ 
+
+import '../src/App.css'
+
+/* global styling */ 
+
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
