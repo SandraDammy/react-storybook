@@ -27,16 +27,55 @@
     border: 1px solid rgb(107, 114, 4);
 
 }
+
 .color-normal {
     background-color: white;
 }
+
 .color-hover {
     background-color: chartreuse;
 }
+
 .color-pressed {
     background-color: blueviolet;
 
 }
+
 .color-disable {
     background-color: darkgreen;
+}
+
+.is-clickable {
+    cursor: pointer;
+}
+
+.is-dragable {
+    cursor: grab;
+    user-select: none;
+}
+
+.is-normal {
+    background-color: #000066;
+    color: #FDFDFD;
+    border: none;
+}
+
+.is-hover {
+    cursor: pointer;
+    background-color: #2A2A7F;
+    color: #FDFDFD;
+    border: none;
+}
+
+.is-pressed {
+    cursor: pointer;
+    background-color: #000055;
+    color: #FDFDFD;
+    border: none;
+}
+
+.is-disabled {
+    background-color: #AAAACC;
+    color: #FDFDFD;
+    border: none;
 }
