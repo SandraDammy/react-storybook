@@ -1,0 +1,54 @@
+.button {
+    display: flex;
+    width: 15.625rem;
+    height: 3.4375rem;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 1rem;
+    background-color: #000066;
+    color: #FDFDFD;
+    box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.05) inset;
+    font-family: Cabin;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.0375rem;
+    cursor: pointer;
+}
+
+.size-md {
+    width: 15.625rem;
+    height: 3.4375rem;
+    border: 1px solid red;
+}
+
+.size-lg {
+    width: 31.25rem;
+    height: 3.5rem;
+    border: 1px solid rgb(28, 1, 1);
+}
+
+.size-sm {
+    width: 7.5rem;
+    height: 3.4375rem;
+    border: 1px solid rgb(107, 114, 4);
+
+}
+.color-normal {
+    background-color: white;
+}
+.color-hover {
+    background-color: chartreuse;
+}
+.color-pressed {
+    background-color: blueviolet;
+
+}
+.color-disable {
+    background-color: darkgreen;
+}

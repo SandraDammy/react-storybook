@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: yellow;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.size-md {
+    width: 15.625rem;
+    height: 3.4375rem;
+    border: 1px solid red;
+}
+
+.size-lg {
+    width: 31.25rem;
+    height: 3.5rem;
+    border: 1px solid rgb(28, 1, 1);
+}
+
+.size-sm {
+    width: 7.5rem;
+    height: 3.4375rem;
+    border: 1px solid rgb(107, 114, 4);
+
+}
+.color-normal {
+    background-color: white;
+}
+.color-hover {
+    background-color: chartreuse;
+}
+.color-pressed {
+    background-color: blueviolet;
+
+}
+.color-disable {
+    background-color: darkgreen;
+}
