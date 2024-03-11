@@ -58,7 +58,7 @@
     color: #000000;
 }
 
-.is-dragable {
+.is-draggable {
     cursor: grab;
     user-select: none;
     color: #000000;

@@ -49,7 +49,7 @@
     cursor: pointer;
 }
 
-.is-dragable {
+.is-draggable {
     cursor: grab;
     user-select: none;
 }
