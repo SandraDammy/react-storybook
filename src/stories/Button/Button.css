@@ -40,17 +40,17 @@
 
 }
 .color-normal {
-    background-color: white;
+    background-color: #000066;
 }
 .color-hover {
-    background-color: chartreuse;
+    background-color: #2A2A7F;
 }
 .color-pressed {
-    background-color: blueviolet;
+    background-color: #000055;
 
 }
 .color-disable {
-    background-color: darkgreen;
+    background-color: #AAAACC;
     color: #000000;
 }
 .is-clickable {
