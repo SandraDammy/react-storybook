@@ -10,6 +10,10 @@ export default {
 /*using Template*/
 const Template = (args) => <Card {...args}/>
 
+/*using Template List*/
+const ListTemplate = ({ items, ...args}) => items.map 
+((item, index) => <Card key={index} {...args} {...item}/>)
+
 // export const Default = () => <Card/>;
 
 export const Default = Template.bind({})
@@ -40,14 +44,22 @@ Disabled.args = {
     isDisabled: true
 }
 
+// export const Colors = () => 
+// options.colors.map((color, index) => {
+//     return <Card key={index} color={color}/>;
+// });
 
+// export const Sizes = () => 
+// options.sizes.map((size, index) => {
+//     return <Card key={index} size={size}/>;
+// });
 
-export const Colors = () => 
-options.colors.map((color, index) => {
-    return <Card key={index} color={color}/>;
-});
+export const Colors = ListTemplate.bind({})
+Colors.args = {
+    items: options.colors.map(color => ({color}))
+};
 
-export const Sizes = () => 
-options.sizes.map((size, index) => {
-    return <Card key={index} size={size}/>;
-});
+export const Sizes = ListTemplate.bind({})
+Sizes.args = {
+    items: options.sizes.map(size => ({size}))
+};
