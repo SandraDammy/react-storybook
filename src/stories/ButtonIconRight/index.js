@@ -1,1 +1,1 @@
-export {default} from "./ButtonIconRight"
+// export {default} from "./ButtonIconRight"

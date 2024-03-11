@@ -43,7 +43,7 @@ Card.propTypes = {
   isNormal: PropTypes.bool,
   isHover: PropTypes.bool,
   isPressed: PropTypes.bool,
-  isDisabled: PropTypes.bool,
+  isDisabled: PropTypes.bool
 };
 
 export default Card;

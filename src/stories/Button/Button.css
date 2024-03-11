@@ -51,4 +51,41 @@
 }
 .color-disable {
     background-color: darkgreen;
+    color: #000000;
+}
+.is-clickable {
+    cursor: pointer;
+    color: #000000;
+}
+
+.is-dragable {
+    cursor: grab;
+    user-select: none;
+    color: #000000;
+}
+
+.is-normal {
+    background-color: #000066;
+    color: #FDFDFD;
+    border: none;
+}
+
+.is-hover {
+    cursor: pointer;
+    background-color: #2A2A7F;
+    color: #FDFDFD;
+    border: none;
+}
+
+.is-pressed {
+    cursor: pointer;
+    background-color: #000055;
+    color: #FDFDFD;
+    border: none;
+}
+
+.is-disabled {
+    background-color: #AAAACC;
+    color: #FDFDFD;
+    border: none;
 }
