@@ -10,8 +10,8 @@ export const ButtonIconRight = ({
 }) => {
   return (
     <button className="button">
-      <div>Icon</div>
       {children}
+      <span className="icon">Icon</span>
     </button>
   );
 };

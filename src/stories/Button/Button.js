@@ -9,7 +9,7 @@ export const Button = ({
   color = "normal",
   size = "md",
   isClickable,
- isDraggable,
+  isDraggable,
   isNormal,
   isHover,
   isPressed,
@@ -38,11 +38,11 @@ Button.propTypes = {
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
   isClickable: PropTypes.bool,
- isDraggable: PropTypes.bool,
+  isDraggable: PropTypes.bool,
   isNormal: PropTypes.bool,
   isHover: PropTypes.bool,
   isPressed: PropTypes.bool,
-  isDisabled: PropTypes.bool
+  isDisabled: PropTypes.bool,
 };
 
 export default Button;

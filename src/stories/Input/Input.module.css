@@ -1,0 +1,46 @@
+/* .Input,  */
+.InputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  border: 1px solid #D2D6DA;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 16px;
+  outline: none;
+  background-color: #FDFDFD;
+}
+
+/* Input.module.css */
+
+/* .InputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #FDFDFD;
+  padding: 1rem;
+  border: 1px solid #D2D6DA;
+  border-radius: 0.5rem;
+
+} */
+
+.Input {
+  flex: 1;
+  /* border: 1px solid #D2D6DA; */
+  /* border-radius: 0.5rem; */
+  /* padding: 1rem; */
+  font-size: 16px;
+  outline: none;
+  background-color: #FDFDFD;
+  border: none;
+
+}
+
+.IconLeft,
+.IconRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Add styling for the icon */
+}

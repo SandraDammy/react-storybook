@@ -6,7 +6,7 @@ import "./Card.css";
 import classNames from "classnames";
 
 export const Card = ({
-  children = "Label",
+  children,
   color = "normal",
   size = "md",
   isClickable,
